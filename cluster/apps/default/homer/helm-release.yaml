@@ -5,7 +5,8 @@ metadata:
   name: homer
   namespace: default
 spec:
-  interval: 5m
+  interval: 15m
+  timeout: 30m
   chart:
     spec:
       # renovate: registryUrl=https://k8s-at-home.com/charts/
